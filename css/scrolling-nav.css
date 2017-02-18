@@ -40,9 +40,11 @@ of those sections to manage the look and feel of the site. */
 
 .about-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 50px;
     text-align: left;
-    background: #eee;
+    background: #fff;
+}
+
 .research-section {
     padding-top: 50px;
     text-align: left;
@@ -51,15 +53,14 @@ of those sections to manage the look and feel of the site. */
 
 
 .publication-section {
-    height: 100%;
-    padding-top: 150px;
+    padding-top: 50px;
     text-align: left;
     background: #fff;
 }
 
-.contact-section {
+.teaching-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 50px;
     text-align: left;
     background: #eee;
 }
