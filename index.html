@@ -58,6 +58,9 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#research">Research</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#publication">Publications</a>
                     </li>
                     <li>
@@ -173,6 +176,131 @@
             </div>
         </div>
     </section>
+
+
+<!-- Projects Section -->
+<section id="research" class="research-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Research</h1>
+
+                <div>
+                    <h4>Pilatus: Partial Homomorphic Encrypted Sharing for IoT Data</h4>
+                    <div id="image" style="margin: 0px 10px 10px 0px; float: left;">
+                        <img width=200px src="Pilatus.png">
+                    </div>
+
+                    <pr>
+                        IoT applications often utilize the cloud to provide storage and ubiquitous access to collected data. This naturally facilitates data sharing with third-party services and other users, but bears privacy risks, due to data breaches or unauthorized trades with user data. To address these concerns, we present Pilatus, a new data protection platform tailored for the IoT ecosystem, that protects data confidentiality while enabling secure processing and selective sharing of encrypted data. Our solution includes a suite of novel techniques that enable efficient partially homomorphic encryption, re-encryption and decryption. Pilatus grants users low-level control over their cloud data with cryptographic guarantees. Pilatus features a novel encrypted data sharing scheme with revocation capabilities and in situ key-update. We present performance optimizations that make these advanced cryptographic tools practical for mobile platforms.
+                    </pr>
+                    <a href="">PDF</a>,
+                    <a href="">Demo</a>,
+                    <a href="">Code</a>
+                    </br>
+                    </br>
+                    <pr>
+                        We implemented a Avawomen app with Pilatus. <a href="">Code</a>
+                    </pr>
+                </div>
+
+                <hr>
+                <div>
+                    <h4>Talos: Ecnrypted Data Processing for the IoT</h4>
+
+                    <div id="image" style="margin: 0px 10px 10px 0px; float: left;">
+                        <img width=200px src="Talos.png">
+                    </div>
+                    <pr>
+                        To tackle the data priacy concerns in IoT, we introduce Talos, a system that stores
+                        IoT data securely in a Cloud database while still allowing
+                        query processing over the encrypted data. We enable
+                        this by encrypting IoT data with a set of cryptographic
+                        schemes such as order-preserving and partially homomorphic
+                        encryption. In order to achieve this in constrained IoT
+                        devices, Talos relies on optimized algorithms that accelerate
+                        order-preserving and partially homomorphic encryption by
+                        1 to 2 orders of magnitude. We assess the feasibility of
+                        Talos on low-power devices with and without cryptographic
+                        accelerators and quantify its overhead in terms of energy,
+                        computation, and latency. With a thorough evaluation of
+                        our prototype implementation, we show that Talos is a
+                        practical system that can provide a high level of security
+                        with a reasonable overhead.
+                        <a href="">PDF</a>,
+                        <a href="">Demo</a>,
+                        <a href="">Code</a>
+                    <pr>
+                        </br>
+                        </br>
+                    <pr>
+                        We relied on the <a ref="">Flocklab</a> testbed at ETH Zurich to evaluate the performance of Talos. <a href="">Code</a>
+                    </pr>
+
+                    </br>
+                    <pr>
+                        We implemented benchmark tool for Contiki OS to automate the macro-benchmark of Talos.
+                        <a href="">Code</a>
+                    </pr>
+
+                    </br>
+                    <pr>
+                        We implemented a FitBit app with Talos to operate on encrypted data.
+                        <a href="">Code</a>
+                    </pr>
+                </div>
+
+                <hr>
+                <section>
+                    <h4>Proximity-based Authentication for the Internet of Things</h4>
+
+                        <div id="image" style="margin: 0px 10px 10px 0px; float: left;">
+                            <img width=200px src="attacker_model.jpg">
+                        </div>
+                        <p>
+                        In this project, we introduce a proximity-based authentication approach
+                        for the IoT that works in-band
+                        by solely utilizing the wireless communication interface. The
+                        novelty of this approach lies in its reliance on ambient radio
+                        signals to infer proximity within about one second, and in
+                        its ability to expose imposters located several meters away.
+                        We identify relevant features sensed from the RF channel to
+                        establish a notion of proximity across co-located low-power
+                        devices. We introduce our proximity-based authentication
+                        protocol and show the feasibility of our approach with an
+                        early prototype using off-the-shelf 802.15.4 sensors.
+                        <a href="">PDF</a>,
+                        <a href="">Demo</a>,
+                        <a href="">Code</a>
+                        </p>
+                        <p>
+                        </p>
+                </section>
+
+                <hr>
+                <div>
+                    <h4>Low-power Wireless Systems Coexistence</h4>
+
+                    <div id="image" style="margin: 0px 10px 10px 0px; float: left;">
+                        <img width=200px src="TIIM.png">
+                    </div>
+                    <p>
+                    The rise of heterogeneity in wireless technologies operating
+                    in the unlicensed bands has been shown to adversely affect
+                    the performance of low-power wireless networks. CrossTechnology
+                    Interference (CTI) is highly uncertain and raises
+                    the need for agile methods that assess the channel conditions
+                    and apply actions maximizing communication success.
+                    To tackle the challenges of CTI, we design and build cognitive systems that can detect CTI and apply effective counter measures.
+                    This project was led by <a href"">Anwar Hithnawi</a> and created
+                     <a href="">TIIM</a>, <a href="">CrossZig</a>, and <a href="">and CIG</a>.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- Publication Section -->
     <section id="publication" class="publication-section">
