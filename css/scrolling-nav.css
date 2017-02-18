@@ -43,7 +43,12 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: left;
     background: #eee;
+.research-section {
+    padding-top: 50px;
+    text-align: left;
+    background: #fff;
 }
+
 
 .publication-section {
     height: 100%;
