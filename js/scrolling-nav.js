@@ -17,3 +17,12 @@ $(function() {
         event.preventDefault();
     });
 });
+
+//jQuery close tge navbar in narrow mode after select
+$(document).ready(function () {
+    $(window).on('scroll', function(){
+                 $('.navbar-ex1-collapse').collapse('hide')
+    });
+});
+
+
