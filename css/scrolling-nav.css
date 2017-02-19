@@ -32,17 +32,15 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .intro-section {
-    height: 100%;
     padding-top: 100px;
     text-align: left;
     background: #fff;
 }
 
-.about-section {
-    height: 100%;
+.projects-section {
     padding-top: 50px;
     text-align: left;
-    background: #fff;
+    background: #eee;
 }
 
 .research-section {
@@ -59,7 +57,6 @@ of those sections to manage the look and feel of the site. */
 }
 
 .teaching-section {
-    height: 100%;
     padding-top: 50px;
     text-align: left;
     background: #eee;
